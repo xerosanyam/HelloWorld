@@ -3,4 +3,4 @@ node_js:
   - "node"
 
 after_success:
-  - surge --project ./ --domain your-project.surge.sh --domain xerosanyam.surge.sh
+  - surge --project ./ --domain xerosanyam.surge.sh
