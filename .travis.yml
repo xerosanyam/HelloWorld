@@ -1,0 +1,4 @@
+deploy:
+  provider: surge
+  project: ./
+  domain: helloworld.surge.sh
