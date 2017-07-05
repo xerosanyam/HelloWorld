@@ -2,6 +2,5 @@ language: node_js
 node_js:
   - "node"
 
-deploy:
-  provider: surge
-  domain: xerosanyam.surge.sh
+after_success:
+  - surge --project ./ --domain your-project.surge.sh --domain xerosanyam.surge.sh
