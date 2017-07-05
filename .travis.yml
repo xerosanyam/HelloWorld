@@ -7,5 +7,4 @@ node_js:
 
 deploy:
   provider: surge
-  project: ./static/
   domain: xerosanyam.surge.sh
